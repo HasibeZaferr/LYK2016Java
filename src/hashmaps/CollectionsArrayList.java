@@ -6,6 +6,7 @@ import java.util.Collections;
 public class CollectionsArrayList {
 	public static void main(String args[]){
 		ArrayList<Integer> arrayList = new ArrayList<Integer>();
+		
 		arrayList.add(0);
 		arrayList.add(1);
 		arrayList.add(2);
