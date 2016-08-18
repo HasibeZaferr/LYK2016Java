@@ -1,4 +1,3 @@
-package cardguessinggame;
 
 /*
  * File: Card.java

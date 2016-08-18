@@ -9,7 +9,6 @@ public class CalcTest {
 		obj.toplama(a, b);
 		obj.cikarma(a, b);
 		obj.carpma(a, b);
-		obj.z;
 	}
 
 }

@@ -7,12 +7,12 @@ public class FileOperationsTest {
 
 	public static void main(String args[]) throws IOException {
 
-		FileOperations.createDirectory("/home/cylon/hede/");
+//		FileOperations.createDirectory("/home/cylon/hede/");
 
-		FileOperations.createFile("/home/cylon/hede/readme.md");
-
-		FileOperations.writeToFile("ASDFG","/home/cylon/hede/readme.md");
-
+//		FileOperations.createFile("/home/cylon/hede/readme.md");
+//
+//		FileOperations.writeToFile("AMA BİZİM JVM'İMİZ VAR","/home/cylon/hede/readme.md");
+//
 		FileOperations.readFile("/home/cylon/hede/readme.md");
 
 	}

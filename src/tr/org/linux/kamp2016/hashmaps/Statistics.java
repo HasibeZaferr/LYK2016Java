@@ -21,8 +21,8 @@ public class Statistics{
 		// Your code starts here
 		
 		for(int i = 0; i < size;i++){
-			int random = RandomTest.randomIntegerRandom(0, 100);
-			map.put(i+1, random);
+	//		int random = RandomTest.randomIntegerRandom(0, 100);
+//			map.put(i+1, random);
 		}
 
 		// Your code ends here

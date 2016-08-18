@@ -1,10 +1,10 @@
-package cardguessinggame;
+package cardguessinggamesolution;
 
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import dicegameexample.RandomTest;
+// import tr.org.linux.kamp2016.dicegameexample.RandomTest;
 
 
 //In this question, your task is implementing a card guessing game. There are four card type
@@ -19,8 +19,8 @@ public class CardGuessingGame {
 		
 		System.out.println("Welcome to the card guessing game!\n");
 		ArrayList<Card> deck = generateCardDeck();
-		Card randomCard = deck.get(RandomTest.randomIntegerRandom(0, 51));
-		System.out.println(randomCard.getCardType() +  " " + randomCard.getValue());
+	//	Card randomCard = deck.get(RandomTest.randomIntegerRandom(0, 51));
+	//	System.out.println(randomCard.getCardType() +  " " + randomCard.getValue());
 		//Takes cardType and value inputs from the user and creates a card from inputs then checks if user has guessed the card correct or wrong.		
 		//Program asks new inputs from the user until the user guesses correct.
 		Scanner input = new Scanner(System.in);
@@ -30,18 +30,18 @@ public class CardGuessingGame {
 			System.out.print("Guess value: ");
 			int guessValue = input.nextInt();
 			Card guessCard = new Card(guessType,guessValue);
-			if(guessCard.equals(randomCard)){
+	//		if(guessCard.equals(randomCard)){
 				System.out.println("You win!");
 				break;
 			}
-			else{
+		//	else{
 				System.out.println("Try again...");
 			}
-		}
-		System.out.println("Done");
+	//	}
+		//System.out.println("Done");
 		//Your code ends here
 		
-	}
+	//}
 	
 	/*
 	 * Generates card deck which is an arrayList that holds all cards with all types and values.
